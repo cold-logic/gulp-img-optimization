@@ -8,3 +8,13 @@ Initial configuration:
   - Quality: 75% of original
   - Output format: WebP
 
+## Installation & Usage
+
+- Install node (nodejs.org)
+- Install the npm dependencies inside this directory
+  - `npm install`
+- Install Gulp CLI:
+  - Using NPM: `npm i -g gulp-cli`
+  - Using Yarn: `yarn global add gulp-cli`
+- Run Gulp inside this directory: `gulp`
+- The optimized images should appear in an "output" directory
