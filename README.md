@@ -18,3 +18,7 @@ Initial configuration:
   - Using Yarn: `yarn global add gulp-cli`
 - Run Gulp inside this directory: `gulp`
 - The optimized images should appear in an "output" directory
+
+## Warning: Be aware GIFs will lose their animation
+
+This process will convert any animated GIFs into static images (using the first frame of the GIF).
