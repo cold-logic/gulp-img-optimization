@@ -3,12 +3,14 @@ const responsive = require('gulp-responsive')
 
 // Converts images into an optimized WebP version
 task('default', () => {
-  return src('images/*.{gif|jpg|jpeg|png}')
+  return src('images/*.{jpg,jpeg,png,gif}')
     .pipe(responsive({
-      '*.jpg':{
+      '*.{jpg,jpeg,png,gif}':{
         format: 'webp',
-        quality: 75,
       }
+    }, {
+      // Global configuration for all images
+      quality: 75,
     }))
     .pipe(dest('output'))
 })
