@@ -1,0 +1,8 @@
+.DS_Store
+/images/*.png
+/images/*.gif
+/images/*.jpg
+/images/*.jpeg
+/images/*.webp
+/node_modules/
+/output
