@@ -7,6 +7,7 @@ Initial configuration:
   - Targets JPEGs, PNGs, or GIFs
   - Quality: 75% of original
   - Output format: WebP
+  - Powered by: `gulp-sharp-responsive` and `sharp` (v0.34+)
 
 ## Installation & Usage
 
@@ -16,7 +17,8 @@ Initial configuration:
 - Install Gulp CLI:
   - Using NPM: `npm i -g gulp-cli`
   - Using Yarn: `yarn global add gulp-cli`
-- Run Gulp inside this directory: `gulp`
+- Run Gulp inside this directory:
+  - `gulp`
 - The optimized images should appear in an "output" directory
 
 ## Warning: Be aware GIFs will lose their animation
